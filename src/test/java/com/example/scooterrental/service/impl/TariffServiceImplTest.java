@@ -90,7 +90,7 @@ public class TariffServiceImplTest {
                 new TariffDto(1L, "Новое название", "Новое описание", 120.0, null, null, false);
         when(tariffRepository.findById(1L)).thenReturn(Optional.of(tariff1));
         when(tariffRepository.save(any(Tariff.class)))
-                .thenAnswer(invocation -> invocation.getArgument(0)); // Возвращаем аргумент
+                .thenAnswer(invocation -> invocation.getArgument(0));
 
         TariffDto updatedTariffDto = tariffService.updateTariff(1L, tariffDtoUpdate);
 
