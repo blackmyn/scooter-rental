@@ -4,21 +4,6 @@
 
 Это RESTful API для системы управления прокатом электросамокатов.  Он позволяет регистрировать пользователей, управлять точками проката и самокатами, а также оформлять аренду.
 
-## Технологии
-
-*   Java 17+
-*   Spring Boot
-*   Spring Data JPA
-*   PostgreSQL
-*   Spring Security
-*   Maven
-*   Docker
-*   Docker Compose
-*   JUnit 5 и Mockito (для Unit-тестов)
-*   SLF4J и Logback (для логирования)
-*   Hibernate Validator (для валидации)
-*   Flyway (для миграций БД)
-
 ## Требования
 
 *   Установленный Docker и Docker Compose ([https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/))
